@@ -1,0 +1,131 @@
+*{    
+box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+p,input,textarea{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+background-image: linear-gradient(#3aa5a4,#7ae5e4);
+}
+/* ============= Header ============== */
+.head{
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.head h1{
+    font-size: 50px;
+}
+.head img{
+    background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+top:0;
+left: 0px;
+width: 100%;
+height:100vh;
+z-index: -2;
+opacity: 0.2;
+}
+
+/* ============== about me ================== */
+.aboutme div{
+    display: table;
+}
+.aboutme  div img{
+float: left;
+padding-right: 20px;
+width: 180px;
+}
+/* ============== Projects ================== */
+/*all boxes*/.aboutme,.Projects,.work,.education_parent,.Languages,.Social,.Contact{
+    background-color: white;
+    padding: 30px 50px 40px 50px;
+    width:80%;
+    margin:30px auto 0px auto;
+}
+.Projects div{
+    display: table;
+}
+.project a ,.project1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.project{
+    float: left;
+}
+ .project img{
+    width: 285px;
+    height: 160px;
+  margin-right: 27px;
+}
+.project1 img{
+    width: 285px;
+    height: 160px;
+}
+/* ============== work ================== */
+.bold{
+font-weight: 600;
+margin-top: -15px;
+}
+/* ============== education ================== */
+.education{
+display:table;
+}
+.education div{
+    float: left;
+    padding-right:290px;
+}
+.education div:last-child{
+    padding-right:0px;
+}
+/* ============== Languages ================== */
+.Languages div{
+    display: table;
+}
+.Languages div p{
+    float: left;
+    padding-right:255px;
+}
+.Languages div p:last-child{
+    padding-right:0px ;
+}
+/* ============== Social Network ================== */
+.Social div{
+    display: table;
+}
+.Social div p{
+    float: left;
+    padding-right:170px;
+}
+.Social div p:last-child{
+    padding-right: 0px;
+}
+.Social div img{
+    margin-bottom: -5px;
+    width:25px;
+}
+/* ============== Contact ================== */
+.Contact input , textarea{
+    background-color: #eee;
+    border:none;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:90%;
+border-radius: 5px;
+}
+.Contact input:last-child{
+    background-color: black;
+    color:white;
+    width:auto;
+    border-radius: 20px; 
+    cursor: pointer;
+}
